@@ -53,10 +53,10 @@ func (q *ContextQueue) GetAll() string {
 
 func main() {
 	// Токен для доступа к API Telegram
-	token := "6423022834:AAHv8IOOkbQFJ-NxUmJi1oikDTYA_9vE8a4"
+	token := "token-telegram"
 
 	// Токен для доступа к API OpenAI
-	openAIKey := "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"
+	openAIKey := "OpenAI-key"
 
 	// Настройка подключения к API Telegram
 	bot, err := tgbotapi.NewBotAPI(token)
